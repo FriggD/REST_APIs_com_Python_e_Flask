@@ -1,0 +1,13 @@
+python --version
+
+alias python=python3.7
+
+pip install virtualenv
+
+virtualenv ambvir --python=python3.7
+source ambvir/bin/activate
+
+pip freeze
+
+pip install Flask
+pip install Flask-Restful
