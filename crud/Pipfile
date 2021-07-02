@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aniso8601 = "==6.0.0"
+click = "==7.0"
+Flask = "==1.0.2"
+Flask-JWT-Extended = "==3.18.1"
+Flask-RESTful = "==0.3.7"
+Flask-SQLAlchemy = "==2.3.2"
+itsdangerous = "==1.1.0"
+Jinja2 = "==2.10.1"
+MarkupSafe = "==1.1.1"
+PyJWT = "==1.7.1"
+pytz = "==2019.1"
+six = "==1.12.0"
+SQLAlchemy = "==1.3.3"
+flask = "*"
+werkzeug = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
